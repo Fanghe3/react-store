@@ -1,12 +1,17 @@
-import React from 'react';
+import React ,{useContext} from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 import { ProductConsumer } from '../Context';
+ 
 
+
+  
 
 class Product extends React.Component {
-     
+   
+
+
     render() {
         const { id, title, img,price, inCart} = this.props.product;
        console.log(id);

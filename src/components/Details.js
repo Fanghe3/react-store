@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {ProductConsumer} from '../Context'
+import { ProductConsumer } from "../Context";
 import {Link }  from "react-router-dom"
 import {ButtonContainer} from "./Button"
 
